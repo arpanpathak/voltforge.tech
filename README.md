@@ -12,6 +12,6 @@ are HTTPS. Why it is built this way: the book, chapter "Bring your own domain"
 | File | Purpose |
 |---|---|
 | `CNAME` | tells GitHub Pages the domain |
-| `index.html`, `thor-tigress-cub/index.html` | forward to the Thor |
+| `index.html`, `thor-tigress-cub.html` | forward to the Thor; `/thor-tigress-cub` is served from the `.html` file without an extra redirect |
 | `404.html` | forwards any other path too |
 | `.nojekyll` | serve the files as they are |
